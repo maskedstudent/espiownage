@@ -2,9 +2,31 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"sysinfo": "00_core.ipynb",
+         "mkdir_if_needed": "00_core.ipynb",
+         "get_data": "00_core.ipynb",
+         "get_checkpoint": "00_core.ipynb",
+         "meta_to_img_path": "00_core.ipynb",
+         "meta_to_mask_path": "00_core.ipynb",
+         "meta_from_str": "00_core.ipynb",
+         "combine_file_and_tl_lists": "00_core.ipynb",
+         "meta_to_df": "00_core.ipynb",
+         "fix_abangle": "00_core.ipynb",
+         "draw_ellipse": "00_core.ipynb",
+         "ellipse_to_bbox": "00_core.ipynb",
+         "ring_float_to_class_int": "00_core.ipynb",
+         "crop_to_bbox": "00_core.ipynb",
+         "is_in_box": "00_core.ipynb",
+         "acc_reg": "00_core.ipynb",
+         "acc_reg05": "00_core.ipynb",
+         "acc_reg07": "00_core.ipynb",
+         "acc_reg1": "00_core.ipynb",
+         "acc_reg15": "00_core.ipynb",
+         "acc_reg2": "00_core.ipynb",
+         "kfold_split": "00_core.ipynb"}
 
-modules = []
+modules = ["core.py",
+           "scripts.py"]
 
 doc_url = "https://maskedstudent.github.io/espiownage/"
 

@@ -1,6 +1,29 @@
 {
   "espiownage": {
     "Overview": "/",
-    "module name here": "core.html"
+    "espiownage core": "core.html",
+    "Console Scripts": "script_doc.html",
+    "IceVision Bboxes - OBPR - CycleGAN Data": "IceVision-on-espiownage-cyclegan-obpr.html",
+    "BBoxes - Pre-Cleaned '15 or more' Real Data": "IceVision-on-espiownage-preclean.html",
+    "Counting Rings in Cropped Images - CycleGAN Data": "count_in_crops_cyclegan.html",
+    "Counting Rings in Cropped Images - (New)Fake Data": "count_in_crops_fake2.html",
+    "Counting Rings in Cropped Images - Pre-Cleaned Real Data": "count_in_crops_preclean.html",
+    "Counting Rings in Cropped Images - Real Data": "kfold_count_in_crops_real.html",
+    "Inferring Rings in Crops": "infer_rings_in_crops.html",
+    "IceVision Inference on BBoxes": "inference_iv_bb.html",
+    "IceVision Bboxes - CycleGAN Data": "iv_bbox_cyclegan.html",
+    "IceVision BBoxes - (New)Fake Data": "iv_bbox_fake2.html",
+    "IceVision Bboxes - Real Data": "kfold_bboxes.html",
+    "IceVision Bboxes - Old SPNet Real Data": "iv_bbox_spnet.html",
+    "Segmentation Regression - Real data": "seg_reg_real.html",
+    "Making Graphs for the Paper": "make_graphs.html",
+    "Prediction of Segmentation Regression - In Bulk (new Images)": "pred_segreg_bulk.html",
+    "Segmentation: *Inference* on Other Musical Instruments": "pred_segreg_new.html",
+    "Segmentation \"all one\" - CycleGAN data": "seg_allone_cyclegan.html",
+    "Segmentation \"all one\" - (New)Fake data": "seg_allone_fake2.html",
+    "segmentation \"all one\" - real data": "seg_allone_real.html",
+    "Segmentation \"multi class\" - CycleGAN data": "seg_multiclass_cyclegan.html",
+    "segmentation regression - camvid test": "seg_reg_camvid.html",
+    "Inference Workflow Overview": "workflow_inf.html"
   }
 }
