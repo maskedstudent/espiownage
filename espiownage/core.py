@@ -43,6 +43,7 @@ def mkdir_if_needed(path:str):
             raise
 
 # Cell
+#slow
 def get_data(dataset_name='cleaner',    # 'cleaner','preclean','spnet','cyclegan','fake'
              force_download=False,      # re-downloads even if you've already got one
              dest_root='~/.espiownage/data', # where the data gets saved
@@ -66,6 +67,7 @@ def get_data(dataset_name='cleaner',    # 'cleaner','preclean','spnet','cyclegan
     return Path(dest_root+data_dir)
 
 # Cell
+#slow
 def get_checkpoint(
         model_type='segreg', # 'segreg', 'rings', 'bboxes' . trained on real data only
         learner_or_model=None, # for segreg & rings you need to pass in a defined fastai Learner; for bboxes we grab a whole model
