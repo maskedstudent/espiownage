@@ -19,22 +19,22 @@ entries:
     title: espiownage
   - folderitems:
     - output: web,pdf
-      title: 'Supplemental: Movies!'
-      url: movies.html
-    - output: web,pdf
-      title: 'Supplmental: Inference on Other Instruments'
-      url: pred_segreg_new.html
-    - output: web,pdf
-      title: 'Supplemental: IceVision''s RetinaNet vs. Others'
-      url: iv_model_choosing.html
-    - output: web,pdf
       title: Release of Datasets & Weights
       url: release_info.html
+    - output: web,pdf
+      title: Movies!
+      url: movies.html
+    - output: web,pdf
+      title: Inference on Other Instruments!
+      url: pred_segreg_new.html
+    - output: web,pdf
+      title: IceVision's RetinaNet > Others
+      url: iv_model_choosing.html
     - output: web,pdf
       title: Reproducing Graphs
       url: make_graphs.html
     output: web
-    title: For the Paper
+    title: Supplemental to Paper
   - folderitems:
     - output: web,pdf
       title: Real Data

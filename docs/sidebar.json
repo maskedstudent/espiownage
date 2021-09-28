@@ -4,11 +4,11 @@
     "espiownage core": "core.html",
     "Ellipse Editor & Other Scripts": "script_doc.html"
    },
-   "For the Paper": {
-     "Supplemental: Movies!": "movies.html",
-     "Supplmental: Inference on Other Instruments": "pred_segreg_new.html",
-     "Supplemental: IceVision's RetinaNet vs. Others": "iv_model_choosing.html",
+   "Supplemental to Paper": {
      "Release of Datasets & Weights": "release_info.html",
+     "Movies!": "movies.html",
+     "Inference on Other Instruments!": "pred_segreg_new.html",
+     "IceVision's RetinaNet > Others": "iv_model_choosing.html",
      "Reproducing Graphs": "make_graphs.html"
    },
    "Ring Counts": {
