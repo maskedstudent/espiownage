@@ -116,19 +116,6 @@ I like to put my environments in <code>~/envs</code>:</p>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Asides">Asides<a class="anchor-link" href="#Asides"> </a></h2><h3 id="Handy-tips-for-students">Handy tips for students<a class="anchor-link" href="#Handy-tips-for-students"> </a></h3><p>I can never remember how to start up virtual environments / or I don't <em>want</em> to remember. So in my <code>~/.bashrc</code> file (you may have a <code>~/.zshrc</code>) I put in a line where I define an alias/function I call <code>gimme</code>, that reads like so:</p>
-<div class="highlight"><pre><span></span>gimme<span class="o">()</span> <span class="o">{</span> <span class="nb">source</span> ~/envs/<span class="s2">&quot;</span><span class="nv">$1</span><span class="s2">&quot;</span>/bin/activate<span class="p">;</span>  <span class="o">}</span>
-</pre></div>
-<p>(note that in order for this alias to be recognized, you need to either logout and log back in or else run <code>$ source ~/.bashrc</code>)</p>
-<p>Then when I want to load environment like <code>espi</code> I just type...</p>
-<div class="highlight"><pre><span></span>gimme espi
-</pre></div>
-
-</div>
-</div>
-</div>
 </div>
  
 
