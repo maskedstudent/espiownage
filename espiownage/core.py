@@ -73,19 +73,25 @@ def get_checkpoint(
         dest_root='~/.espiownage/models', # where the model weights gets saved
         ):
     "For inference: Grab checkpoint of a pretrained espiownage model"
-    assert model_type in ['segreg', 'rings', 'bboxes']
+    assert model_type in ['segreg', 'rings', 'bboxes', 'seg']
     urls = {}
-    urls['segreg']  = ''
-    urls['rings'] = ''
-    urls['bboxes']    = ''
+    urls['segreg']  = 'https://www.dropbox.com/s/4dnad92r37ji0ah/seg_reg_full_real_2.pth?dl=0'
+    urls['rings'] = 'https://www.dropbox.com/s/awpgvqeonwhjgza/crop-rings-real_k0.pth?dl=0'
+    urls['bboxes'] = 'https://www.dropbox.com/s/yiip69zfig7rfob/espi-retinanet-checkpoint-real-k0.pth?dl=0'
+    urls['seg'] = 'https://www.dropbox.com/s/woa0gwemio4gami/seg_allone_full_real.pth?dl=0'
+
+    filename = urls[model_type].split('/')[-1].replace('?dl=0','')
+
     if 'bboxes' == model_type:
         print("Warning: the IceVision install is incompatible with the fastai version used for the seg-reg and ring counting")
         print("For bounding boxes you (probably) need a dedicated Python environment for that.")
     else:
-        assert learner_or_model is not None, "You need to define the Learner so we can load the weights"
+        assert learner_or_model is not None, "You need to pass in the Learner so we can load the weights"
 
-    print("FAILURE: This isn't ready yet. Returning")
-    return None, model
+    print("\n FAILURE: This isn't fully ready yet. ")
+    print(f" For now, for model_type={model_type}, try downloading manually from {urls[model_type]}")
+    print("Returning.")
+    return filename
 
     data_dir = f'espiownage-{dataset_name}'
     dest_root = os.path.expanduser(dest_root)+'/'
