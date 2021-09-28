@@ -93,5 +93,3 @@ Then when I want to load environment like `espi` I just type...
 gimme espi
 ```
 
-
---Scott H. Hawley, September 2021
