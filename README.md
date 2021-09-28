@@ -49,19 +49,7 @@ Note: the requirements on this package follow a "kitchen sink" approach so that 
 
 ## How to use
 
-If you're reading this, you probably have access to the "real" data, which sits (on my machine) in `~/Dropbox/Data/espiownage-data`.  So `cd` to that directory, i.e.,
-```
-$ cd ~/Dropbox/Data/espiownage-data
-```
-...(or whereever you've got it) for what follows. 
-
-**AND THEN**, so we don't "clobber" each other's work, make *your own copy* (~17MB) of the main `annotations` directory, as in append your last name (student, student, student, etc):
-
-```bash
-cp -r annotations annotations_yourlastname
-```
-and then we'll each edit our own copy just to avoid...confusion. 
-> *Note:If you don't have access to the real data,* you can still grab the [fake SPNet data](https://zenodo.org/record/4445434) and then, for each of those datasets: Move (or symlink) all the images to a directory called `images/`, and all the `.csv` files to a directory called `annotations/`, and proceed.
+Take a look at the tabs in the sidebar, which arranged in sections according the tasks of detecting antinodes in steelpan drum oscillations, counting the interference friges, and reporting tracking information so that scientists can better understand the rapid transient dynamics of these instruments -- it is the transients that give the instrument its distinctive sound! 
 
 ## Console Scripts
 See the separate page on console scripts
