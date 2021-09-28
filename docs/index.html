@@ -33,8 +33,12 @@ nb_path: "nbs/index.ipynb"
 <div class="text_cell_render border-box-sizing rendered_html">
 <blockquote><p>Ownage of ESPI image inference. (Pronounced like "espionage" but with a little "own" in the middle.)</p>
 </blockquote>
-<p>This code accompanies the paper submission <a href="https://www.dropbox.com/s/30nqyl0srekmu0s/steelpan_neurips_2021.pdf?dl=0"><strong>"espiownage:Tracking Transients in Drum Strikes Using Surveillance Technology"</strong></a> for the <a href="https://nips.cc/Conferences/2021/">NeurIPS 2021</a> workshop on <a href="https://ml4physicalsciences.github.io/2021/">Machine Learning and the Physical Sciences.</a></p>
-<p>This study consists of 3 models:  Two that go together (a bounding box detector that feeds cropped images into an antinode ring-counter) and another complements them (an image sementation code we use for regression by scaling the final activation of a "one-class" model.)</p>
+<p>This code repository accompanies the paper submission <a href="https://www.dropbox.com/s/30nqyl0srekmu0s/steelpan_neurips_2021.pdf?dl=0"><strong>"espiownage:Tracking Transients in Drum Strikes Using Surveillance Technology"</strong></a> for the <a href="https://nips.cc/Conferences/2021/">NeurIPS 2021</a> workshop on <a href="https://ml4physicalsciences.github.io/2021/">Machine Learning and the Physical Sciences.</a></p>
+<div align="center">
+{% include image.html width="40%" style="display:inline; vertical-align: bottom" max-width="40%" file="/espiownage/images/ellipse_editor_screenshot.png" %}
+<div style="display:inline;width:10px;"></div>
+{% include image.html width="36%" style="display:inline; vertical-align: bottom" max-width="36%" file="/espiownage/images/infer_others.png" %}
+</div><p>This study consists of 3 models:  Two that go together (a bounding box detector that feeds cropped images into an antinode ring-counter) and another complements them (an image sementation code we use for regression by scaling the final activation of a "one-class" model.)</p>
 <p>All this documentation is fully executable, either locally or on Colab. This is made possible by <a href="nbdev.fast.ai">nbdev</a>, the development system that enabled us to stay organized and do this project in only 18 days!</p>
 <p>These pages and <a href="https://github.com/maskedstudent/espiownage">the GitHub repo they are generated from</a> are fully anonymized as are all the links that are used, so they're "safe" for reviewers to explore.  <em>Note that there is a "real" espiownage repo and PyPi entry (which is where the pip-installs used in these notebooks will pull from for setup/speed purposes) so don't go searching for that.</em>  Pending successful review of the paper, this repository will be redirected to the non-anonymous version.</p>
 

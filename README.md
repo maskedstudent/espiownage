@@ -4,7 +4,14 @@
 
 > Ownage of ESPI image inference. (Pronounced like "espionage" but with a little "own" in the middle.) 
 
-This code accompanies the paper submission [**"espiownage:Tracking Transients in Drum Strikes Using Surveillance Technology"**](https://www.dropbox.com/s/30nqyl0srekmu0s/steelpan_neurips_2021.pdf?dl=0) for the [NeurIPS 2021](https://nips.cc/Conferences/2021/) workshop on [Machine Learning and the Physical Sciences.](https://ml4physicalsciences.github.io/2021/) 
+This code repository accompanies the paper submission [**"espiownage:Tracking Transients in Drum Strikes Using Surveillance Technology"**](https://www.dropbox.com/s/30nqyl0srekmu0s/steelpan_neurips_2021.pdf?dl=0) for the [NeurIPS 2021](https://nips.cc/Conferences/2021/) workshop on [Machine Learning and the Physical Sciences.](https://ml4physicalsciences.github.io/2021/) 
+
+<div align="center">
+<img src="nbs/images/ellipse_editor_screenshot.png" width="40%" style="max-width: 40%px">
+<div style="display:inline;width:10px;"></div>
+<img src="nbs/images/infer_others.png" width="36%" style="max-width: 36%px">
+</div>
+
 
 This study consists of 3 models:  Two that go together (a bounding box detector that feeds cropped images into an antinode ring-counter) and another complements them (an image sementation code we use for regression by scaling the final activation of a "one-class" model.)
 
