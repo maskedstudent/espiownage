@@ -8,7 +8,7 @@
      "Supplemental: Movies!": "movies.html",
      "Supplmental: Inference on Other Instruments": "pred_segreg_new.html",
      "Supplemental: IceVision's RetinaNet vs. Others": "iv_model_choosing.html",
-     "Reprodudicing Graphs": "make_graphs.html"
+     "Reproducing Graphs": "make_graphs.html"
    },
    "Ring Counts": {
        "Real Data": "count_in_crops_real.html",

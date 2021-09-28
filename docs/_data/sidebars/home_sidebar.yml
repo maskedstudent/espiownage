@@ -28,7 +28,7 @@ entries:
       title: 'Supplemental: IceVision''s RetinaNet vs. Others'
       url: iv_model_choosing.html
     - output: web,pdf
-      title: Reprodudicing Graphs
+      title: Reproducing Graphs
       url: make_graphs.html
     output: web
     title: For the Paper
