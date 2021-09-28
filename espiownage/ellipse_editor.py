@@ -2,7 +2,7 @@
 
 '''
 Ellipse editor, standalone utility for use with steelpan images & annotations
-Author: Scott H. Hawley  License: MIT (below)
+Author: masked student License: MIT (below)
 
 Reads a CSV file of the format cx,cy,a,b,angle,rings  (a & b are ellipse axes), as in..
 $ cat test_img.csv
@@ -22,7 +22,7 @@ The rest of the SPNet code uses OpenCV.
 
 
 MIT License:
-Copyright (c) 2018 Scott Hawley, https://github.com/maskedstudent
+Copyright (c) 2021 Masked Student https://github.com/maskedstudent
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

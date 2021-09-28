@@ -202,9 +202,9 @@ espiownage version 0.0.44
 
 <span class="n">on_colab</span> <span class="o">=</span> <span class="n">on_colab</span><span class="p">()</span>
 <span class="k">if</span> <span class="n">on_colab</span><span class="p">:</span>
-    <span class="n">path</span> <span class="o">=</span> <span class="n">untar_data</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;http://anonymized.machine.com/~student/espiownage-</span><span class="si">{</span><span class="n">dataset</span><span class="si">}</span><span class="s1">.tgz&#39;</span><span class="p">)</span> 
+    <span class="n">path</span> <span class="o">=</span> <span class="n">untar_data</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;http://anonymized.machine.com/~sstudent/espiownage-</span><span class="si">{</span><span class="n">dataset</span><span class="si">}</span><span class="s1">.tgz&#39;</span><span class="p">)</span> 
 <span class="k">else</span><span class="p">:</span>
-    <span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;/home/student/datasets/espiownage-</span><span class="si">{</span><span class="n">dataset</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span> 
+    <span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;/home/sstudent/datasets/espiownage-</span><span class="si">{</span><span class="n">dataset</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span> 
 <span class="nb">print</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
 </pre></div>
 
@@ -218,7 +218,7 @@ espiownage version 0.0.44
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>/home/student/datasets/espiownage-cleaner
+<pre>/home/sstudent/datasets/espiownage-cleaner
 </pre>
 </div>
 </div>
@@ -480,10 +480,10 @@ half =  (192, 256)
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>/home/student/.local/lib/python3.8/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the &#39;trunc&#39; function NOT &#39;floor&#39;). This results in incorrect rounding for negative values.
+<pre>/home/sstudent/.local/lib/python3.8/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the &#39;trunc&#39; function NOT &#39;floor&#39;). This results in incorrect rounding for negative values.
 To keep the current behavior, use torch.div(a, b, rounding_mode=&#39;trunc&#39;), or for actual floor division, use torch.div(a, b, rounding_mode=&#39;floor&#39;). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
   return torch.floor_divide(self, other)
-/home/student/.local/lib/python3.8/site-packages/torch/_tensor.py:1023: UserWarning: torch.solve is deprecated in favor of torch.linalg.solveand will be removed in a future PyTorch release.
+/home/sstudent/.local/lib/python3.8/site-packages/torch/_tensor.py:1023: UserWarning: torch.solve is deprecated in favor of torch.linalg.solveand will be removed in a future PyTorch release.
 torch.linalg.solve has its arguments reversed and does not return the LU factorization.
 To get the LU factorization see torch.lu, which can be used with torch.lu_solve or torch.lu_unpack.
 X = torch.solve(B, A).solution
@@ -603,7 +603,7 @@ X = torch.linalg.solve(A, B) (Triggered internally at  /pytorch/aten/src/ATen/na
                 Syncing run <strong style="color:#cdcd00">k=3 cleaner</strong> to <a href="https://wandb.ai" target="_blank">Weights & Biases</a> <a href="https://docs.wandb.com/integrations/jupyter.html" target="_blank">(Documentation)</a>.<br/>
                 Project page: <a href="https://wandb.ai/maskedstudent/segreg_kfold" target="_blank">https://wandb.ai/maskedstudent/segreg_kfold</a><br/>
                 Run page: <a href="https://wandb.ai/maskedstudent/segreg_kfold/runs/5ms8f1s2" target="_blank">https://wandb.ai/maskedstudent/segreg_kfold/runs/5ms8f1s2</a><br/>
-                Run data is saved locally in <code>/home/student/espi-work/wandb/run-20210924_201146-5ms8f1s2</code><br/><br/>
+                Run data is saved locally in <code>/home/sstudent/espi-work/wandb/run-20210924_201146-5ms8f1s2</code><br/><br/>
             
 </div>
 
@@ -612,7 +612,7 @@ X = torch.linalg.solve(A, B) (Triggered internally at  /pytorch/aten/src/ATen/na
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>/home/student/.local/lib/python3.8/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+<pre>/home/sstudent/.local/lib/python3.8/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
   return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
 </pre>
 </div>
