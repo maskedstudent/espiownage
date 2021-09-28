@@ -12,7 +12,7 @@ This study consists of 3 models:  Two that go together (a bounding box detector 
 All this documentation is fully executable, either locally or on Colab. This is made possible by [nbdev](nbdev.fast.ai), the development system that enabled us to stay organized and do this project in only 18 days! 
 
 
-These pages and [the GitHub repo they are generated from](https://github.com/maskedstudent/espiownage) are fully anonymized as are all the links that are used, so they're "safe" for reviewers to explore.  *Note that there is a "real" espiownage repo (which is fact what the pip-installs used in these notebooks will pull from for setup/speed purposes) so don't go searching for that.*  Pending successful review of the paper, this repository will be redirected to the non-anonymous version.
+These pages and [the GitHub repo they are generated from](https://github.com/maskedstudent/espiownage) are fully anonymized as are all the links that are used, so they're "safe" for reviewers to explore.  *Note that there is a "real" espiownage repo and PyPi entry (which is where the pip-installs used in these notebooks will pull from for setup/speed purposes) so don't go searching for that.*  Pending successful review of the paper, this repository will be redirected to the non-anonymous version.
 
 ## Install
 
