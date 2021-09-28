@@ -28,6 +28,9 @@ entries:
       title: 'Supplemental: IceVision''s RetinaNet vs. Others'
       url: iv_model_choosing.html
     - output: web,pdf
+      title: Release of Datasets & Weights
+      url: release_info.html
+    - output: web,pdf
       title: Reproducing Graphs
       url: make_graphs.html
     output: web

@@ -8,6 +8,7 @@
      "Supplemental: Movies!": "movies.html",
      "Supplmental: Inference on Other Instruments": "pred_segreg_new.html",
      "Supplemental: IceVision's RetinaNet vs. Others": "iv_model_choosing.html",
+     "Release of Datasets & Weights": "release_info.html",
      "Reproducing Graphs": "make_graphs.html"
    },
    "Ring Counts": {
