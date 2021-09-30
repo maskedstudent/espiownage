@@ -31,6 +31,14 @@ nb_path: "nbs/inference_iv_bb.ipynb"
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Here we demonstrate the inference capability of the bounding box detector when operating on images not in the training set, applying it to the additional 12,000 unlabeled video frames, to see what "physics" can be learned.
+{% include note.html content='This section reads requires access to the full 14,000 (previously unlabeled) video frames, which are not part of our dataset release. If this is a point of contention for reviewers, temporary access to these frames will be  enabled so that these graphs can be reproduced. However for now, these data are considered "proprietary". ' %}</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Installing-IceVision-and-IceData">Installing IceVision and IceData<a class="anchor-link" href="#Installing-IceVision-and-IceData"> </a></h2><p>If on Colab run the following cell, else check the <a href="https://airctic.com/dev/install/">installation instructions</a></p>
 
 </div>

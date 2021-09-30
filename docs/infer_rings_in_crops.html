@@ -46,6 +46,15 @@ nb_path: "nbs/infer_rings_in_crops.ipynb"
 </div>
     {% endraw %}
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Here we demonstrate the inference capability of the ring-counter model on crops of antinodes to see what "physics" can be learned from the additional 12,000 images not included in the labeled 'cleaner' dataset. 
+(The crops are obtained from the bounding boxes prediced by the IceVision bounding box object detector.)
+{% include note.html content='This section reads requires access to the full 14,000 (previously unlabeled) video frames, which are not part of our dataset release. If this is a point of contention for reviewers, temporary access to these frames will be  enabled so that these graphs can be reproduced. However for now, these data are considered "proprietary". ' %}</p>
+
+</div>
+</div>
+</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
