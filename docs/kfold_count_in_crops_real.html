@@ -33,7 +33,7 @@ nb_path: "nbs/kfold_count_in_crops_real.ipynb"
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Mod of <a href="https://walkwithfastai.com/Custom">Zach Muller's WWF 01_Custom.ipynb</a>.</p>
 <p>Here we'll take cropped images of antinodes and try to count the rings.
-{% include note.html content='The WandB links will 404, because there is no "maskedstudent" WandB account. We just used <code>sed</code> to replace the real username in the .ipynb files. ' %}</p>
+{% include note.html content='This is just a stripped-down, streamlined version of the longer <a href="count_in_crops_real.html">Counting Rings in Cropped Images</a> notebook, with a k-fold cross-validation added in. See that other notebook for a better explanation of what we&#8217;re doing. ' %}{% include note.html content='The WandB links will 404, because there is no "maskedstudent" WandB account. We just used <code>sed</code> to replace the real username in the .ipynb files. ' %}</p>
 
 </div>
 </div>
@@ -141,7 +141,7 @@ espiownage version 0.0.41
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dataset_name</span> <span class="o">=</span> <span class="s1">&#39;cleaner&#39;</span> <span class="c1"># choose from: cleaner(=real), preclean, spnet, cyclegan, fake</span>
 
-<span class="n">path</span> <span class="o">=</span> <span class="n">get_data</span><span class="p">(</span><span class="n">dataset_name</span><span class="p">)</span>
+<span class="n">path</span> <span class="o">=</span> <span class="n">get_data</span><span class="p">(</span><span class="n">dataset_name</span><span class="p">)</span> <span class="o">/</span> <span class="s1">&#39;crops&#39;</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
 
