@@ -214,8 +214,7 @@ This is for the left panel in Figure 4. (The middle and right panels were done w
 <li>The bottom of the <a href="pred_segreg_bulk.html">"Inference &gt; Segmentation Regression" notebook</a> shows a time series graph that gets saved to a file called <code>rings_vs_t_13400-13600_sr.txt</code>.</li>
 <li>The bottom of the <a href="infer_rings_in_crops.html">"Inference &gt; Rings From BBoxes" notebook</a> shows a very similar-looking time-series graph, saved to the file <code>rings_vs_t_13400-13600_crops.txt</code>.</li>
 </ol>
-<p>To make the graph we combined these two time series using <code>xmgrace</code>, which...doesn't have a Jupyter plugin.
-We can try to recreate the basic aspect of the plot but it won't look the same as in the paper:</p>
+<p>To make the graph we combined these two time series:</p>
 
 </div>
 </div>
@@ -287,6 +286,8 @@ We can try to recreate the basic aspect of the plot but it won't look the same a
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Wow! They're right on top of each other!</p>
+<p>This was super exciting to see, as the "count rings in crops" method was shown to be pretty accurate, and the "segmentation-regression" method was a "hail mary" invented during the 3 days we couldn't get the IceVision bbox detector to run in inference mode without CUDA OOM errors.</p>
+<p>This gave us reason to "believe" the S-R method and to use it for extracting science.  Future version of the <code>ellipse_editor</code> tool will allow the user to click on a pixel and then immediately see graphs of the time series at that pixel, and using the S-R data will be easier to implement than the count-in-crops method (though both will be possible and eventually included).</p>
 
 </div>
 </div>
